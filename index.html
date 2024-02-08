@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Zombie Game</title>
+    </head>
+
+    <body>
+        <section id="health-container">
+            <p id="health">
+                <img src="images/full_heart.png" id="full_heart1" class="full heart">
+                <img src="images/full_heart.png" id="full_heart2" class="full heart">
+                <img src="images/full_heart.png" id="full_heart3" class="full heart">
+                <img src="images/empty_heart.png" id="empty_heart1" class="empty heart">
+                <img src="images/empty_heart.png" id="empty_heart2" class="empty heart">
+                <img src="images/empty_heart.png" id="empty_heart3" class="empty heart"> 
+            </p>
+        </section>
+        <section id="score-container">
+            <p id="score"></p>
+        </section>
+        
+        <section id="start-container" class="menu-container">
+            <section id="start" class="inner">
+                Start the game
+                <button id="startbutton">PLAY</button>
+            </section>
+        </section>
+
+        <section id="end-container" class="menu-container">
+            <section id="end" class="inner">
+                Defeat<br>
+                <p id="end-score"></p>
+                <button id="play_again_button">PLAY AGAIN</button>
+            </section>
+        </section>
+
+        <section id="board"></section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
